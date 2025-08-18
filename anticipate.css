@@ -1,0 +1,156 @@
+:root {
+  --primary: #2563EB;
+  --primary-accent: #3B82F6;
+
+  --text-heading: #1E293B;
+  --text-body: #334155;
+
+  --bg-light: #F1F5F9;
+  --border-light: #E2E8F0;
+
+  --success: #22C55E;
+  --warning: #EAB308;
+  --error: #EF4444;
+
+  --white: #FFFFFF;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+header{
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100vw;
+  padding: 10px 40px;
+}
+h1{
+  padding: 10px;
+  margin-left: 200px;
+}
+.CTA{
+  font-size: 1rem;
+  width: 15rem;
+  height: 45px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-right: 100px;
+  /* work on hth border color */
+  border: 1px solid var(--primary-accent);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.CTA:hover{
+  background-color: var(--primary-accent);
+  cursor: pointer;
+  color: white;
+}
+
+.about{
+  margin-top: 50px;
+  padding: 40px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.column-1{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.column-2{
+  padding: 20px;
+  display: flex;
+  align-items: center;  
+  border: 1px solid black;
+}
+
+.register{
+  border: 1px solid plum;
+}
+form{
+  margin: 30px 30px;
+  padding: 50px;
+  border-width: medium;
+  border: 1px solid black;
+}
+.form-header{
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.form-description{
+  padding: 5px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.bio{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label{
+  padding: 0 5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.input{
+  border: 1px solid black;
+  padding: 8px;
+  width: 232px;
+  height: 48px;
+  font-size: 1rem;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.first-name, .surname,
+.email, .mobile{
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.submit-button{
+  width: 31.5rem;
+  border-radius: 8px;
+  height: 40px;
+  font-size: 1rem;
+  border: 1px solid var(--primary--accent);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+.submit-button:hover{
+  cursor: pointer;
+  background-color: var(--primary-accent);
+  color: white;
+}
+
