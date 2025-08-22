@@ -25,6 +25,7 @@ body{
   font-family: "Inter", sans-serif;
   color: var(--text-body);
   background-color: var(--bg-light);
+  padding-top: 30px;
 }
 
 header{
@@ -78,32 +79,50 @@ h1{
 }
 
 .about{
-  border: 1px solid black;
   margin-top: 50px;
+  margin-bottom: 20px;
   padding-top: 80px;
   padding: 40px;
   height: 400px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
 }
+.ducora-slogan{
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5rem;
+  background-image: linear-gradient(45deg, var(--text-heading), var(--text-body), var(--primary)10%, var(--text-heading));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px auto;
+  font-weight: 800;
+  text-align: center;
+}
+.ducora-mission{
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.8rem;
+  line-height: 40px;
+  color: var(--text-body);
+  text-align: center;
+}
+
 .column-1{
   padding: 20px;
   display: flex;
   align-items: center;
-  border: 1px solid black;
 }
 .column-2{
+  margin-bottom: 30px;
   padding: 20px;
   display: flex;
   align-items: center;  
-  border: 1px solid black;
+}
+
+.register{
+  margin-top: 70px;
 }
 
 form{
   margin: 30px 30px;
   padding: 50px;
-  border-width: medium;
 }
 .form-header{
   font-family: "Poppins", sans-serif;
@@ -131,7 +150,7 @@ form{
   font-size: 1.1rem;
 }
 .input{
-  border: 1px solid var(--border-light);
+  border: 1px solid;
   padding: 8px;
   width: 100%;
   height: 48px;
