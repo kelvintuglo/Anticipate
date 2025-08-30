@@ -140,6 +140,7 @@ form{
 }
 
 .bio{
+  background-color: lightslategray;
   padding: 5px 10px;
   display: flex;
   align-items: center;
@@ -221,13 +222,14 @@ form{
 }
 
 @media(max-width: 768px){
-  *{
-    margin: 0;
-    padding: 0;
-  }
   h1{
     font-size: 1rem;
     font-weight: 400;
+    max-width: 100%;
+  }
+
+  .CTA{
+    max-width: 100%;
   }
 
   p{
