@@ -222,25 +222,36 @@ form{
   padding: 5px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 481px){
+  header{
+    max-width: 100%;
+  }
+
   h1{
-    font-size: 2rem;
-    font-weight: 600;
-    width: 100%;
-  
+    font-size: 1rem;
+  }
+
+  .CTA{
+    max-width: 100%;
+  }
+
+  .ducora-slogan{
+    font-size: 1rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   p{
     font-size: 1rem;
-    padding: 0 1rem;
-    width: 100%;
+    max-width: 100%;
   }
 
-  .ducora-slogan{
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 500;
-    width: 100%;
+  input{
+    max-width: 100%;
   }
 
+  .submit-button{
+    max-width: 100%;
+  }
 }
