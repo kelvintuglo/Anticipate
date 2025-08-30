@@ -226,18 +226,21 @@ form{
   h1{
     font-size: 2rem;
     font-weight: 600;
+    width: 100%;
   
   }
 
   p{
     font-size: 1rem;
     padding: 0 1rem;
+    width: 100%;
   }
 
   .ducora-slogan{
     display: flex;
     flex-wrap: wrap;
     font-weight: 500;
+    width: 100%;
   }
 
 }
