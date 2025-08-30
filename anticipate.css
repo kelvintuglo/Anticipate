@@ -224,7 +224,7 @@ form{
 
 @media(max-width: 768px){
   h1{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     max-width: 100%;
   }
@@ -242,6 +242,7 @@ form{
   .ducora-slogan{
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
   }
 
   .submit-button{
