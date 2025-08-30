@@ -226,27 +226,18 @@ form{
   h1{
     font-size: 2rem;
     font-weight: 600;
-    max-width: 100%;
-  }
-
-  .CTA{
-    max-width: 100%;
+  
   }
 
   p{
     font-size: 1rem;
-    max-width: 100%;
     padding: 0 1rem;
   }
 
   .ducora-slogan{
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
     font-weight: 500;
   }
 
-  .submit-button{
-    max-width: 100%;
-  }
 }
