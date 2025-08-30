@@ -95,6 +95,7 @@ h1{
   padding: 5px auto;
   font-weight: 800;
   text-align: center;
+  
 }
 .ducora-mission{
   padding: 5px;
@@ -224,7 +225,7 @@ form{
 @media(max-width: 768px){
   h1{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     max-width: 100%;
   }
 
@@ -236,6 +237,11 @@ form{
     font-size: 1rem;
     max-width: 100%;
     padding: 0 1rem;
+  }
+
+  .ducora-slogan{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .submit-button{
