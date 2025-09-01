@@ -225,6 +225,10 @@ form{
     max-width: 100vw;
   }
 
+  .about{
+    padding: 0;
+  }
+
   h1{
     font-size: 1.5rem;
   }
