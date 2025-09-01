@@ -19,7 +19,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid brown;
+
 }
 
 body{
@@ -123,7 +123,7 @@ h1{
 
 form{
   margin: 30px 30px;
-  padding: 30px;
+  padding: 15px;
 }
 .form-header{
   font-family: "Poppins", sans-serif;
@@ -154,8 +154,8 @@ form{
 .input{
   border: 1px solid;
   padding: 8px;
-  width: 100%;
-  max-width: 100%;
+  width: 15.75rem;
+
   height: 48px;
   font-size: 1rem;
   margin-top: 5px;
@@ -163,8 +163,8 @@ form{
 }
 .first-name, .surname,
 .email, .mobile{
-  margin: 0 10px;
-  padding: 5px 10px;
+  margin: 0 5px;
+  padding: 5px 0;
 }
 
 .form-contact{
@@ -182,7 +182,7 @@ form{
 }
 
 .submit-button{
-  width: 31.5rem;
+  width: 32rem;
   border-radius: 8px;
   height: 45px;
   font-size: 1rem;
@@ -249,7 +249,8 @@ form{
   }
 
   input{
-    max-width: 100vw;
+    width: 31.5rem;
+    max-width: 100%;
   }
 
   .submit-button{
