@@ -19,7 +19,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  border: 1px solid brown;
 }
 
 body{
@@ -155,7 +155,6 @@ form{
   border: 1px solid;
   padding: 8px;
   width: 15.75rem;
-
   height: 48px;
   font-size: 1rem;
   margin-top: 5px;
@@ -224,25 +223,24 @@ form{
     max-width: 100vw;
   }
 
-  
-
   h1{
     font-size: 1.5rem;
   }
 
   .CTA{
-    max-width: 100vw;
+    max-width: 50vw;
   }
 
   .ducora-slogan{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 0.5;
     max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
   }
 
   p{
-    font-size: 1rem;
+    font-size: 0.875rem;
     max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +248,7 @@ form{
 
   input{
     width: 31.5rem;
-    max-width: 100%;
+    max-width: 100vw;
   }
 
   .submit-button{
