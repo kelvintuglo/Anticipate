@@ -219,6 +219,10 @@ form{
 }
 
 @media(max-width: 481px){
+  *{
+    padding: 0;
+  }
+  
   header{
     max-width: 100vw;
   }
@@ -231,16 +235,9 @@ form{
     max-width: 50vw;
   }
 
-  .column-1{
-    padding: 10px;
-  }
-  .column-2{
-    padding: 10px;
-  }
-
   .ducora-slogan{
     font-size: 2.5rem;
-    line-height: 10px;
+    line-height: 30px;
     max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +247,7 @@ form{
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
-    line-height: 10px;
+    line-height: 30px;
   }
 
   p{
